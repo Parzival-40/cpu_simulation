@@ -1,0 +1,60 @@
+{
+    "cores": [
+        {
+            "idle_time": 296.9
+        },
+        {
+            "idle_time": 299.996
+        },
+        {
+            "idle_time": 303.159
+        },
+        {
+            "idle_time": 300.035
+        },
+        {
+            "idle_time": 301.752
+        },
+        {
+            "idle_time": 303.67
+        },
+        {
+            "idle_time": 304.25
+        },
+        {
+            "idle_time": 303.937
+        },
+        {
+            "idle_time": 305.722
+        },
+        {
+            "idle_time": 300.977
+        },
+        {
+            "idle_time": 303.968
+        },
+        {
+            "idle_time": 293.795
+        },
+        {
+            "idle_time": 304.919
+        },
+        {
+            "idle_time": 300.146
+        },
+        {
+            "idle_time": 300.194
+        },
+        {
+            "idle_time": 304.399
+        }
+    ],
+    "analysis": {
+        "cores": 16,
+        "inter_arrival_mean": 0.5,
+        "total_idle_time": 4827.82,
+        "incomplete_jobs": 0,
+        "last_job_completed_at": 499.634,
+        "utilization": 0.396081
+    }
+}

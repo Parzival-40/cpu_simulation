@@ -1,0 +1,36 @@
+{
+    "cores": [
+        {
+            "idle_time": 88.0939
+        },
+        {
+            "idle_time": 90.2923
+        },
+        {
+            "idle_time": 89.1753
+        },
+        {
+            "idle_time": 87.2506
+        },
+        {
+            "idle_time": 93.0182
+        },
+        {
+            "idle_time": 92.9216
+        },
+        {
+            "idle_time": 87.9398
+        },
+        {
+            "idle_time": 87.7429
+        }
+    ],
+    "analysis": {
+        "cores": 8,
+        "inter_arrival_mean": 0.5,
+        "total_idle_time": 716.435,
+        "incomplete_jobs": 0,
+        "last_job_completed_at": 499.745,
+        "utilization": 0.8208
+    }
+}

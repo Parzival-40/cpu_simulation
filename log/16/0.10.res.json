@@ -1,0 +1,60 @@
+{
+    "cores": [
+        {
+            "idle_time": 0
+        },
+        {
+            "idle_time": 0
+        },
+        {
+            "idle_time": 0
+        },
+        {
+            "idle_time": 0
+        },
+        {
+            "idle_time": 0
+        },
+        {
+            "idle_time": 0
+        },
+        {
+            "idle_time": 0
+        },
+        {
+            "idle_time": 0
+        },
+        {
+            "idle_time": 0
+        },
+        {
+            "idle_time": 0
+        },
+        {
+            "idle_time": 0
+        },
+        {
+            "idle_time": 0
+        },
+        {
+            "idle_time": 0
+        },
+        {
+            "idle_time": 0
+        },
+        {
+            "idle_time": 0
+        },
+        {
+            "idle_time": 0
+        }
+    ],
+    "analysis": {
+        "cores": 16,
+        "inter_arrival_mean": 0.1,
+        "total_idle_time": 0,
+        "incomplete_jobs": 1019,
+        "last_job_completed_at": 200.407,
+        "utilization": 1.00
+    }
+}

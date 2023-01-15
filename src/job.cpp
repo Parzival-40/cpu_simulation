@@ -65,7 +65,7 @@ Job::~Job() {
     }
     std::ofstream log("log/" + std::to_string(CORES) + "/" +
                           std::to_string(INTER_ARRIVAL_MEAN).substr(0, 4) +
-                          ".json",
+                          ".trace.json",
                       std::ios_base::app);
     log << "{\"job_id\":" << id << ",\"arrival_time\":" << arrivalTime
         << ",\"delay_time\":" << startTime - arrivalTime

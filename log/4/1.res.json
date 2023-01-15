@@ -1,0 +1,24 @@
+{
+    "cores": [
+        {
+            "idle_time": 208.793
+        },
+        {
+            "idle_time": 203.087
+        },
+        {
+            "idle_time": 210.904
+        },
+        {
+            "idle_time": 207.768
+        }
+    ],
+    "analysis": {
+        "cores": 4,
+        "inter_arrival_mean": 1,
+        "total_idle_time": 830.552,
+        "incomplete_jobs": 6,
+        "last_job_completed_at": 1024.01,
+        "utilization": 0.797231
+    }
+}
