@@ -63,9 +63,9 @@ Job::~Job() {
       Scheduler::schedule(new Termination());
       Termination::lastJobCompletedAt = Scheduler::now();
     }
-    std::ofstream log("log/" + std::to_string(CORES) + "_cores_" +
+    std::ofstream log("log/" + std::to_string(CORES) + "/" +
                           std::to_string(INTER_ARRIVAL_MEAN).substr(0, 4) +
-                          "_inter_arrival_mean.json",
+                          ".json",
                       std::ios_base::app);
     log << "{\"job_id\":" << id << ",\"arrival_time\":" << arrivalTime
         << ",\"delay_time\":" << startTime - arrivalTime

@@ -31,9 +31,9 @@ Cpu::Cpu(int core_count) {
 
 Core::Core() : status(idle), lastBusyAt(0) {}
 Core::~Core() {
-  std::ofstream log("log/" + std::to_string(CORES) + "_cores_" +
+  std::ofstream log("log/" + std::to_string(CORES) + "/" +
                         std::to_string(INTER_ARRIVAL_MEAN).substr(0, 4) +
-                        "_inter_arrival_mean.json",
+                        ".json",
                     std::ios_base::app);
   log << "{\"idle_time\":" << idleTime << "}," << std::endl;
   Termination::totalIdleTime += idleTime;

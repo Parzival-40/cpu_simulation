@@ -58,16 +58,18 @@ Termination::Termination() : Event(0) {}
 void Termination::handler() {
   Job::clearJobs();
   Scheduler::clearEvents();
-  std::ofstream log("log/" + std::to_string(CORES) + "_cores_" +
+  std::ofstream log("log/" + std::to_string(CORES) + "/" +
                         std::to_string(INTER_ARRIVAL_MEAN).substr(0, 4) +
-                        "_inter_arrival_mean.json",
+                        ".json",
                     std::ios_base::app);
   log << "{\"cores\":[" << std::endl;
   Cpu::removeCores();
   log << "]}," << std::endl;
   log << "{\"analysis\":{" << std::endl;
   Cpu::removeCpu();
-  log << "\"total_idle_time\":" << Termination::totalIdleTime
+  log << "\"cores\":" << CORES
+      << ",\"inter_arrival_mean\":" << INTER_ARRIVAL_MEAN
+      << ",\"total_idle_time\":" << Termination::totalIdleTime
       << ",\"incomplete_jobs\":" << Termination::incompleteJobs
       << ",\"last_job_completed_at\":" << Termination::lastJobCompletedAt
       << ",\"utilization\":\""
